@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+        <a id="logo" href="index.html"><span class="pink">Сайт</span><i> визитка</i>
+            <a id="top_text" href="uslugi.html"> УСЛУГИ </a>
+            <a id="top_text" href="about_us.html"> О НАС</a> 
+            <a id="top_text" href="clients.html"> КЛИЕНТЫ</a> 
+            <a id="top_text" href="contact.html"> КОНТАКТЫ </a>
+        </header>
+        <main>
+            <form  id="contact-form" action="">
+            <div class="form_item"><label for="topic">Тема</label><br><select name="topic" id="topic">
+            <option value="1">Заказать услугу</option>    
+            <option value="2">Оставить отзыв/замечание</option>
+            <option value="3">Предложить сотрудничество</option>
+            <option value="4">Другое</option>
+            </select></div>    
+            <div class="form_item" ><label for="name">Имя</label><br><input name="name" id="name" type="text" placeholder="Ведиде ваше имя" required=""></div>
+            <div class="form_item" ><label for="e-mail">E-mail</label><br><input name="e-mail" id="e-mail" type="email" placeholder="Ведите вашу электронную почту" required=""></div> 
+            <div class="form_item" ><label for="tel">Номер телефона</label><br><input name="tel" id="tel" type="text" placeholder="Введите ваш номер телефона" required=""></div> 
+            <div class="form_item" ><label for="text message" >Тест сообщения</label><br><input name="text message" id="text-message" type="text" placeholder="Введите ваше сообщение" required=""></div>
+            <div class="form_item" ><label for="date">Оставить дату</label><br><input name="date" id="date" type="text" placeholder="Введите дату(например: 01.01.25)" required=""></div>
+            <div class="form_item"><lable for="to send">Отправить</lable><br><input name="to send" type="submit"></div>
+        </form>
+    </main>
+        <footer> <p class="footer_block">Написать нам &#9650; </p>
+            <p class="footer_block"> &copy; Новая компания</p>
+          <div class="footer_icons">
+          <a target="_blank" href="https://m.ok.ru/"><img class="footer_img" src="img/ok.png" alt="ok"></a>
+          <a target="_blank" href="https://vk.com/"><img class="footer_img" src="img/vk.png" alt="vk"></a>
+          <a target="_blank" href="https://mail.ru/"><img class="footer_img" src="img/mailru.png" alt="mail"></a> 
+          </div>
+          </footer>
+</body>
+</html>
